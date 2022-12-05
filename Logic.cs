@@ -84,6 +84,9 @@ public class Logic : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// The method will remove the existing ball from the scene and spawn a new one on the spawn-point
+    /// </summary>
     public void SpawnBall()
     {
         DeleteBall();
